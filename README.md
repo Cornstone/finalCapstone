@@ -1,7 +1,5 @@
 # Final Captone - NLP Application - Sentiment Analysis.py
 
-## Project name - NLP Application - Sentiment Analysis
-
 ## Summary of the project - the NLP application: Sentiment analysis - 
 This is a Python programme for carrying out sentiment analysis for Amazon product reviews taken Kaggle dataset website.
 
@@ -51,5 +49,26 @@ Using .similarity to comparing the similarity of 2 reviews of the datasets.
 ###### Step 6 - Data Visualisation for sentiment analysis results
 Using Bar chart to plot the results 
 
+## Installation - 
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install spacytextblob
+
+```bash
+pip install spacytextblob
+```
+
+## Usage
+
+```python
+import spacytextblob
+
+# returns polarity, sentiment
+clean_review((clean_review_list[0]))
+```
+
+
+## Contributing
+
+Project inspired by https://www.youtube.com/watch?v=QpzMWQvxXWk
+Python Sentiment Analysis Project with NLTK and Transformers. Classify Amazon Reviews!!
 
 
